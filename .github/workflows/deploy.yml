@@ -72,11 +72,13 @@ jobs:
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
+      # No pip cache: the template's requirements.txt was removed with the rest of
+      # the demo content, and setup-python fails outright when cache has nothing
+      # to hash. Python is here only for nbconvert, below.
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-          cache: "pip" # caching pip dependencies
       - name: Setup Node 🧰
         uses: actions/setup-node@v4
         with:
