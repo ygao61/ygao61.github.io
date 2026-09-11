@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /projects/alevin-fry-forseti/
 title: alevin-fry-forseti
 description: Mechanism-aware single-cell quantification — 2.5× more long-read-confirmed multimapping assignments, and 75× faster after a rewrite in Rust.
 img: assets/img/proj/forseti.svg

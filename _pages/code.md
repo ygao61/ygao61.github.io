@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /repositories/
+permalink: /code/
 title: code
 description: Open-source work I contribute to and maintain.
 nav: true

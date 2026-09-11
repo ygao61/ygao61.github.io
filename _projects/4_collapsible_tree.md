@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /projects/collapsible-tree/
 title: Collapsible tree
 description: A Django/D3.js platform for zooming through cell-lineage hierarchies at any resolution.
 img: assets/img/proj/collapsible-tree.svg

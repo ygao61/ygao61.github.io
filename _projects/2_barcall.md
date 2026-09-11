@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /projects/barcall/
 title: BarCall
 description: End-to-end deep learning for Optical Pooled Screens — spot detection and base calling in one model, recovering ~18.5% more usable cells.
 img: assets/img/proj/barcall.svg

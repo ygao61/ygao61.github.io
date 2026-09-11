@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /projects/qcatch/
 title: QCatch
 description: Automated cell calling and interactive HTML quality-control reports for the alevin-fry ecosystem, standardized to H5AD.
 img: assets/img/proj/qcatch.svg
