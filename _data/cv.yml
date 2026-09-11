@@ -44,7 +44,7 @@ cv:
         end_date: 2018-06
 
     Experience:
-      - company: Genentech (gRED)
+      - company: Genentech
         position: Research Intern
         location: South San Francisco, CA
         url: https://www.gene.com/scientists/our-scientists/research
@@ -131,7 +131,7 @@ cv:
           - Bo Li
         publisher: ISMB 2026
         releaseDate: 2026
-        summary: Work done at Genentech gRED.
+        summary: Work done at Genentech.
 
       - title: "Forseti: a mechanistic and predictive model of the splicing status of scRNA-seq reads"
         authors:

@@ -31,14 +31,14 @@ I am a Ph.D. candidate in **Computational Biology** at the **University of Maryl
 
 Previously, I obtained my M.S. in Bioinformatics from **The George Washington University**. From 2022 to 2024 I worked at the **National Cancer Institute, NIH** with [Dr. Peng Jiang](https://ccr.cancer.gov/staff-directory/peng-jiang), and before my Ph.D. I worked at **Children's National Hospital** with [Dr. Wei Li](https://weililab.org/).
 
-I interned at **Genentech gRED** (w/ [Dr. Monica Ge](https://www.linkedin.com/in/xing-yue-monica-ge-592879a0/), [Joshua Gould](https://github.com/joshua-gould), and [Dr. Bo Li](https://www.gene.com/scientists/our-scientists/bo-li) in BRAID).
+I interned at **Genentech** (w/ [Dr. Monica Ge](https://www.linkedin.com/in/xing-yue-monica-ge-592879a0/), [Joshua Gould](https://github.com/joshua-gould), and [Dr. Bo Li](https://www.gene.com/scientists/our-scientists/bo-li) in BRAID).
 
-I develop **algorithms, statistical models, and machine learning methods for large-scale biological measurement** — the probabilistic model of how an assay generates its data, the algorithm that resolves what the model leaves ambiguous, and the deep networks that read the raw signal. My recent work explores:
+I develop **algorithms, statistical models, and machine learning methods for large-scale biological data**:
 
-- **Algorithm Development:** graph-based UMI deduplication and multi-mapping resolution for single-cell quantification — ambiguity resolved inside the algorithm rather than bolted on as a post-hoc tie-break.
-- **Deep Learning for Biological Imaging:** end-to-end encoder–decoder architectures with a recurrent bottleneck for joint object detection and sequence decoding in in situ sequencing; self-supervised training and pseudo-labeling where ground-truth labels are scarce.
-- **Statistical & Probabilistic Modeling:** mechanistic models of the data-generating process — fragment-length distributions, learned priming-site affinity — that replace hand-tuned heuristics with calibrated posteriors, validated against orthogonal long-read measurements.
-- **ML for Drug Discovery:** tree-ensemble models over transcriptomic profiles spanning 578 cancer cell lines and 4,518 compounds, for drug-response prediction and mechanism-of-action biomarker discovery.
-- **ML Systems & Tooling:** training-data curation, evaluation pipelines, and inference at scale — including a 75× speedup from systematic optimization in Rust, and open-source tooling used across the alevin-fry ecosystem.
+- **Single-Cell Quantification:** read multi-mapping resolution, graph-based UMI deduplication, mechanistic models of library preparation, calibrated splicing-status inference. *Rust*, *Python*
+- **Computer Vision:** end-to-end multi-head architectures, joint object detection and sequence decoding, self-supervised training. *PyTorch*
+- **Model Development:** training-data curation, fine-tuning, pseudo-labeling, evaluation-metric design, validation against orthogonal measurements. *PyTorch*, *scikit-learn*
+- **Drug Discovery:** drug-response prediction with classical ML, mechanism-of-action biomarker discovery, CRISPR screen curation. *scikit-learn*, *R*
+- **Large-Scale Pipelines:** reproducible workflows, systematic performance optimization, production-grade open-source tooling. *Nextflow*, *Docker*, *Linux*
 
-<span style="color: var(--global-theme-color); font-weight: 600;">I'm graduating in December 2026 and currently on the industry job market — feel free to reach out at the address above.</span>
+<span style="color: var(--global-theme-color); font-weight: 600;">I'm graduating in December 2026 and currently on the industry job market. Feel free to reach out at the address above.</span>
