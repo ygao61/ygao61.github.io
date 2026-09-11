@@ -35,3 +35,68 @@
 html[data-theme="dark"] .periodical em.venue {
   color: var(--venue-color-dark);
 }
+
+// Profile column. The theme gives it 30% of the container; the photo reads small
+// next to the intro text, so take a bit more and shrink the address block that
+// sits under it (the theme sets it in monospace at body size, which is heavy for
+// four short lines of contact detail).
+@media (min-width: 576px) {
+  .profile {
+    width: 44%;
+  }
+}
+
+.profile .more-info {
+  font-size: 0.66rem;
+  line-height: 1.55;
+}
+
+// Publications is a section of the homepage reached from the navbar, not its own
+// page. The navbar is fixed, so an anchor jump would otherwise park the heading
+// underneath it.
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+#publications {
+  scroll-margin-top: 5rem;
+}
+
+// Publication links: at most three per entry (Paper, GitHub, Demo), each an icon
+// plus a label. The theme's default is a hard 1px box in full text colour, which
+// at three-across reads as a row of form controls; soften it to a chip that sits
+// under the citation rather than competing with it.
+.publications .links a.btn.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.22rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--global-divider-color);
+  color: var(--global-text-color-light);
+  background-color: transparent;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease,
+    background-color 0.15s ease;
+
+  i {
+    font-size: 0.9em;
+    opacity: 0.85;
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    background-color: transparent;
+  }
+}
