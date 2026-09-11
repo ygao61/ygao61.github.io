@@ -4,4 +4,5 @@ github_username: ygao61 # your GitHub user name
 linkedin_username: yuan-gao-97a47018a # your LinkedIn user name
 scholar_userid: AUh4lMAAAAAJ # your Google Scholar ID — also powers the citation-count workflow
 # email: ygao61@umd.edu   # uncomment to bring back the email icon
-cv_pdf: /assets/pdf/Yuan_Gao_CV.pdf # CV download icon in the social row
+# cv_pdf: — deliberately not published. The CV goes out as an attachment when applying;
+#          hosting it here would put a phone number on a public, indexable page.
