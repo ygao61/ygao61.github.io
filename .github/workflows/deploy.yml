@@ -79,13 +79,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+      # Node is here only so the purgecss step below can install it globally.
+      # No npm cache and no `npm ci`: package.json went with the template's test
+      # suite, and setup-node fails when cache has no lockfile to hash.
       - name: Setup Node 🧰
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm"
-      - name: Install JS deps 📦
-        run: npm ci
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
