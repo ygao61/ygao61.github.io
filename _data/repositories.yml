@@ -1,0 +1,10 @@
+github_users:
+  - ygao61
+
+repo_description_lines_max: 2
+
+github_repos:
+  - COMBINE-lab/alevin-fry
+  - COMBINE-lab/QCatch
+  - COMBINE-lab/forseti
+  - COMBINE-lab/simpleaf

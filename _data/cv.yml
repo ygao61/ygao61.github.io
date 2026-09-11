@@ -1,0 +1,183 @@
+cv:
+  name: Yuan Gao
+  label: Ph.D. Candidate in Computational Biology
+  email: ygao61@umd.edu
+  location: College Park, MD
+  image: ""
+  summary: >
+    Computational biologist building probabilistic and deep-learning methods for single-cell and
+    spatial genomics — and shipping them as tools other people run. Ph.D. completing December 2026;
+    open to industry roles in computational biology, ML for genomics, and scientific tooling.
+
+  social_networks:
+    - network: GitHub
+      username: ygao61
+    - network: LinkedIn
+      username: yuan-gao-97a47018a
+
+  sections:
+    Education:
+      - institution: University of Maryland
+        location: College Park, MD
+        url: https://www.cs.umd.edu/
+        area: Computational Biology
+        studyType: Ph.D.
+        start_date: 2021-08
+        end_date: 2026-12
+        highlights:
+          - Advised by Dr. Rob Patro in the COMBINE Lab.
+          - "Thesis: mechanism-based probabilistic modeling for single-cell quantification."
+
+      - institution: The George Washington University
+        location: Washington, DC
+        url: https://www.gwu.edu/
+        area: Bioinformatics
+        studyType: M.S.
+        start_date: 2019-09
+        end_date: 2021-05
+
+      - institution: Liaoning University
+        location: Liaoning, China
+        area: Bioscience
+        studyType: B.S.
+        start_date: 2014-09
+        end_date: 2018-06
+
+    Experience:
+      - company: Genentech (gRED)
+        position: Research Intern
+        location: South San Francisco, CA
+        url: https://www.gene.com/scientists/our-scientists/research
+        start_date: 2025-06
+        end_date: 2025-10
+        summary: >
+          Deep learning for in situ sequencing (ISS) with the BRAID group. Mentored by Dr. Monica Ge,
+          Joshua Gould, and Dr. Bo Li. Led pipeline design, training-data curation, model training,
+          and evaluation.
+        highlights:
+          - "Designed BarCall (ISMB 2026), a deep-learning model that performs spot detection and base calling jointly in a single end-to-end framework, replacing the conventional decoupled multi-stage pipeline and enabling self-supervised learning for Optical Pooled Screens (OPS)."
+          - "Recovered substantially more usable cells (~18.5%) for downstream analysis with strong cross-plate generalizability, directly increasing the effective yield of high-throughput OPS."
+
+      - company: COMBINE Lab, University of Maryland
+        position: Graduate Researcher
+        location: College Park, MD
+        url: https://combine-lab.github.io/
+        start_date: 2022-06
+        end_date: present
+        summary: >
+          Mechanism-based probabilistic engine for single-cell quantification, plus the diagnostic
+          tooling around it. Advised by Dr. Rob Patro.
+        highlights:
+          - "Developed Forseti (ISMB 2024), the first probabilistic model to mechanistically resolve gene multi-mapping and splicing-status ambiguity for scRNA-seq reads."
+          - "Architected alevin-fry-forseti (under review), an end-to-end quantification tool integrating probabilistic modeling directly into graph-based UMI deduplication, with a 75× speedup from systematic performance optimization in Rust."
+          - "Validated reassignments against matched long-read data: 2.5× higher long-read confirmation than the parsimony-EM baseline, and 2.7× greater recovery vs. Cell Ranger (288K vs. 106K calls)."
+          - "Produced count matrices that disentangle overlapping gene families such as the MS4A locus and rescue functional biomarkers — e.g. the antioxidant regulator GPX1 in dendritic cells — routinely discarded as unresolvable noise by mechanism-unaware heuristics."
+          - "Achieved the highest clustering agreement (NMI/ARI) with expert-curated cell types on a human MTG snRNA-seq atlas (9,103 cells, 19 subclasses), significantly beating Cell Ranger (p = 0.006) and matching the reference ceiling."
+          - "Built QCatch (Bioinformatics, 2026), a Python diagnostic framework for the alevin-fry ecosystem: automated cell calling, interactive HTML QC reports, and standardization to the H5AD format."
+
+      - company: National Cancer Institute, NIH
+        position: Graduate Researcher
+        location: Bethesda, MD
+        url: https://www.cancer.gov/
+        start_date: 2022-01
+        end_date: 2024-12
+        summary: >
+          Hierarchical visualization platform for scRNA-seq data (Bioinformatics, 2024).
+          Advised by Dr. Peng Jiang.
+        highlights:
+          - "Architected a full-stack visualization platform (Django / D3.js) that turns high-dimensional scRNA-seq count matrices into interactive, collapsible cell-lineage trees built on hierarchical ontologies."
+          - "Enabled multi-resolution analysis by letting researchers zoom dynamically between broad lineages and specific subtypes, with expression recomputed at each resolution."
+
+      - company: Children's National Hospital
+        position: Researcher
+        location: Washington, DC
+        url: https://www.childrensnational.org/
+        start_date: 2020-05
+        end_date: 2021-05
+        summary: >
+          ML-driven drug response modeling and biomarker discovery. Advised by Dr. Wei Li.
+        highlights:
+          - "Curated and processed 25+ CRISPR/Cas9 screening datasets through automated MAGeCK-VISPR pipelines to support a standardized functional genomics database (CRISP-view, NAR 2021)."
+          - "Engineered a Random Forest model integrating transcriptomic profiles across 578 cancer cell lines and 4,518 compounds to predict drug response and identify mechanism-of-action biomarkers — including BRAF/SOX10 as response predictors for the MEK/RAF inhibitor PLX-4720 — supporting patient-stratification hypotheses and early drug-candidate de-risking."
+
+    Publications:
+      - title: "Alevin-fry-Forseti Enhances Single Cell Quantification via Mechanistic-informed Multimapping Resolution"
+        authors:
+          - Yuan Gao
+          - Dongze He
+          - Rob Patro
+        publisher: Manuscript under review
+        releaseDate: 2026
+        summary: First author.
+
+      - title: "QCatch: a framework for quality control assessment and analysis of single-cell sequencing data"
+        authors:
+          - Yuan Gao
+          - Dongze He
+          - Rob Patro
+        publisher: "Bioinformatics 42(5)"
+        releaseDate: 2026-04-15
+        url: https://doi.org/10.1093/bioinformatics/btag184
+        summary: Co-first author (equal contribution).
+
+      - title: "BarCall: a deep-learning base caller for Optical Pooled Screens"
+        authors:
+          - Dimitri Kontogiorgos-Heintz
+          - Yuan Gao
+          - Jose Sergio Hleap
+          - David Richmond
+          - Joshua Gould
+          - Xiaoyan Monica Ge
+          - Bo Li
+        publisher: ISMB 2026
+        releaseDate: 2026
+        summary: Work done at Genentech gRED.
+
+      - title: "Forseti: a mechanistic and predictive model of the splicing status of scRNA-seq reads"
+        authors:
+          - Dongze He
+          - Yuan Gao
+          - Spencer Skylar Chan
+          - Natalia Quintana-Parrilla
+          - Rob Patro
+        publisher: "Bioinformatics 40(Supplement_1), i297–i306"
+        releaseDate: 2024-06-28
+        url: https://doi.org/10.1093/bioinformatics/btae207
+        summary: Co-first author (equal contribution). ISMB 2024 Proceedings.
+
+      - title: "Collapsible tree: interactive web app to present collapsible hierarchies"
+        authors:
+          - Yuan Gao
+          - Rob Patro
+          - Peng Jiang
+        publisher: "Bioinformatics 40(11), btae645"
+        releaseDate: 2024-10-26
+        url: https://doi.org/10.1093/bioinformatics/btae645
+        summary: First author.
+
+      - title: "CRISP-view: a database of functional genetic screens spanning multiple phenotypes"
+        authors:
+          - Yingbo Cui
+          - Xiaolong Cheng
+          - "… Yuan Gao … "
+          - Wei Li
+        publisher: "Nucleic Acids Research 49(D1), D848–D854"
+        releaseDate: 2021-01-08
+        url: https://doi.org/10.1093/nar/gkaa809
+
+    Skills:
+      - name: Programming & Scripting
+        icon: fa-solid fa-code
+        keywords: "Python, Rust, R, Nextflow, JavaScript, Linux, Docker"
+
+      - name: Machine Learning
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, scikit-learn, model fine-tuning, training-data curation, pseudo-labeling, self-supervised learning"
+
+      - name: Genomics
+        icon: fa-solid fa-dna
+        keywords: "scRNA-seq, snRNA-seq, single-cell quantification, long-read validation, optical pooled screens, in situ sequencing, CRISPR screens, MAGeCK-VISPR"
+
+      - name: Web & Visualization
+        icon: fa-solid fa-chart-line
+        keywords: "Django, Node.js, D3.js, interactive reporting, AnnData / H5AD"

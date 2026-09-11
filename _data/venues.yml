@@ -1,0 +1,14 @@
+"Bioinformatics":
+  url: https://academic.oup.com/bioinformatics
+  color: "#1f6f5c"
+
+"ISMB":
+  url: https://www.iscb.org/ismb
+  color: "#9c4f2e"
+
+"NAR":
+  url: https://academic.oup.com/nar
+  color: "#2c5aa0"
+
+"Under review":
+  color: "#6b7482"

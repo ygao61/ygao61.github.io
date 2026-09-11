@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250" role="img" aria-label="A cell-lineage tree with one branch expanded and one collapsed">
+  <rect width="400" height="250" fill="#f6f7f9"/>
+  <g fill="none" stroke="#8b95a5" stroke-width="1.6">
+    <path d="M56 125 H104 V62 H152"/>
+    <path d="M104 125 V188 H152"/>
+    <path d="M152 62 H180 V36 H236"/>
+    <path d="M180 62 V88 H236"/>
+  </g>
+  <g fill="none" stroke="#2f6f62" stroke-width="1.6">
+    <path d="M236 36 H268 V22 H312"/>
+    <path d="M268 36 V50 H312"/>
+    <path d="M236 88 H312"/>
+  </g>
+  <!-- expanded leaves -->
+  <g fill="#2f6f62">
+    <circle cx="312" cy="22" r="5"/>
+    <circle cx="312" cy="50" r="5"/>
+    <circle cx="312" cy="88" r="5"/>
+  </g>
+  <!-- internal nodes -->
+  <g fill="#8b95a5">
+    <circle cx="56" cy="125" r="5.5"/>
+    <circle cx="104" cy="125" r="4.5"/>
+    <circle cx="152" cy="62" r="4.5"/>
+    <circle cx="180" cy="62" r="4.5"/>
+    <circle cx="236" cy="36" r="4.5"/>
+  </g>
+  <!-- collapsed node -->
+  <circle cx="152" cy="188" r="9" fill="#c2571a"/>
+  <text x="152" y="192" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#f6f7f9">+</text>
+  <g font-family="ui-sans-serif,-apple-system,Helvetica,Arial,sans-serif" font-size="11" fill="#6b7482">
+    <text x="168" y="192" fill="#c2571a">collapsed · 41 subtypes</text>
+    <text x="324" y="26">CD8 T</text>
+    <text x="324" y="54">CD4 T</text>
+    <text x="324" y="92">NK</text>
+    <text x="24" y="236">zoom across resolutions of the cell ontology</text>
+  </g>
+</svg>
