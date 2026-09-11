@@ -33,10 +33,11 @@ Previously, I obtained my M.S. in Bioinformatics from **The George Washington Un
 
 I interned at **Genentech gRED** (w/ [Dr. Monica Ge](https://www.linkedin.com/in/xing-yue-monica-ge-592879a0/), [Joshua Gould](https://github.com/joshua-gould), and [Dr. Bo Li](https://www.gene.com/scientists/our-scientists/bo-li) in BRAID).
 
-I develop **machine learning and probabilistic methods for large-scale biological measurement** — deep networks for imaging-based assays, generative models of the measurement process itself, and the systems that make both run at scale. My recent work explores:
+I develop **algorithms, statistical models, and machine learning methods for large-scale biological measurement** — the probabilistic model of how an assay generates its data, the algorithm that resolves what the model leaves ambiguous, and the deep networks that read the raw signal. My recent work explores:
 
 - **Deep Learning for Biological Imaging:** end-to-end encoder–decoder architectures with a recurrent bottleneck for joint object detection and sequence decoding in in situ sequencing; self-supervised training and pseudo-labeling where ground-truth labels are scarce.
-- **Probabilistic & Generative Modeling:** models of the data-generating process — fragment-length distributions, learned priming-site affinity networks — that replace hand-tuned heuristics with calibrated posteriors over latent structure.
+- **Algorithm Development:** graph-based UMI deduplication and multi-mapping resolution for single-cell quantification — ambiguity resolved inside the algorithm rather than bolted on as a post-hoc tie-break.
+- **Statistical & Probabilistic Modeling:** mechanistic models of the data-generating process — fragment-length distributions, learned priming-site affinity — that replace hand-tuned heuristics with calibrated posteriors, validated against orthogonal long-read measurements.
 - **ML for Drug Discovery:** tree-ensemble models over transcriptomic profiles spanning 578 cancer cell lines and 4,518 compounds, for drug-response prediction and mechanism-of-action biomarker discovery.
 - **ML Systems & Tooling:** training-data curation, evaluation pipelines, and inference at scale — including a 75× speedup from systematic optimization in Rust, and open-source tooling used across the alevin-fry ecosystem.
 
