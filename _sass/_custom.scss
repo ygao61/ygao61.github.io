@@ -1,0 +1,37 @@
+// Social icons live in the profile column, under the photo and address.
+// The theme sizes them for a full-width row (4rem); that is far too large
+// for a ~30vw sidebar, so scale them down and centre them under the image.
+.profile {
+  .social {
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+
+  .contact-icons {
+    font-size: 1.5rem;
+    line-height: 1;
+
+    a {
+      margin: 0 0.4rem;
+      display: inline-block;
+    }
+  }
+
+  .contact-note {
+    font-size: 0.75rem;
+    margin-top: 0.4rem;
+  }
+}
+
+// Venue name on a publication entry. The old coloured badge chip in the thumbnail
+// column is gone; the venue name itself carries the colour, from _data/venues.yml.
+// Two values per venue so it stays legible in both themes.
+.periodical em.venue {
+  color: var(--venue-color);
+  font-style: normal;
+  font-weight: 600;
+}
+
+html[data-theme="dark"] .periodical em.venue {
+  color: var(--venue-color-dark);
+}

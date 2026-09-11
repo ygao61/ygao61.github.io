@@ -1,5 +1,5 @@
+# Leave github_users empty: the per-user stats / trophy cards are not shown.
 github_users:
-  - ygao61
 
 repo_description_lines_max: 2
 
@@ -7,4 +7,5 @@ github_repos:
   - COMBINE-lab/alevin-fry
   - COMBINE-lab/QCatch
   - COMBINE-lab/forseti
-  - COMBINE-lab/simpleaf
+  - COMBINE-lab/forseti-experiments
+  - data2intelligence/collapsible_tree

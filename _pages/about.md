@@ -1,24 +1,23 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Ph.D. Candidate in Computational Biology, <a href="https://www.cs.umd.edu/">University of Maryland</a>. Advised by <a href="https://www.cs.umd.edu/people/rob">Rob Patro</a> in the <a href="https://combine-lab.github.io/">COMBINE Lab</a>.
 
 profile:
   align: right
-  image: prof_pic.svg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>COMBINE Lab, Department of Computer Science</p>
     <p>University of Maryland</p>
     <p>College Park, MD 20742</p>
-    <p><a href="mailto:ygao61@umd.edu">ygao61@umd.edu</a></p>
+    <p>ygao61 [at] umd [dot] edu</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -28,12 +27,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I build methods that make single-cell and spatial measurements **trustworthy enough to draw conclusions from** — and ship them as tools other people actually run.
+I am a Ph.D. candidate in **Computational Biology** at the **University of Maryland**, advised by [Dr. Rob Patro](https://www.cs.umd.edu/people/nomad) in the [COMBINE Lab](https://combine-lab.github.io).
 
-Most of my work sits at one specific failure point: the step between raw sequencing reads and the count matrix everyone downstream treats as ground truth. That step quietly discards a lot. Reads that map to several genes get thrown away, spliced and unspliced origins get conflated, and whole gene families — the overlapping *MS4A* locus, antioxidant regulators like *GPX1* — disappear into "unresolvable noise." My thesis work replaces those heuristics with a mechanistic probabilistic model: [Forseti](/publications/) predicts the splicing status of a read from first principles, and `alevin-fry-forseti` folds that model directly into graph-based UMI deduplication — 2.5× more long-read-confirmed multi-mapping assignments than a parsimony-EM baseline, and 75× faster after a rewrite in Rust.
+Previously, I obtained my M.S. in Bioinformatics from **The George Washington University**. From 2022 to 2024 I worked at the **National Cancer Institute, NIH** with [Dr. Peng Jiang](https://ccr.cancer.gov/staff-directory/peng-jiang), and before my Ph.D. I worked at **Children's National Hospital** with [Dr. Wei Li](https://weililab.org/).
 
-The same instinct carries into imaging. At **Genentech gRED** I designed [BarCall](/publications/), a deep-learning base caller for optical pooled screens that performs spot detection and base calling jointly instead of as a decoupled multi-stage pipeline. Being end-to-end is what makes self-supervision possible — and it recovered ~18.5% more usable cells, with the improvement holding across plates.
+I interned at **Genentech gRED** (w/ [Dr. Monica Ge](https://www.linkedin.com/in/xing-yue-monica-ge-592879a0/), [Joshua Gould](https://github.com/joshua-gould), and [Dr. Bo Li](https://www.gene.com/scientists/our-scientists/bo-li) in BRAID).
 
-I care about the unglamorous half of methods work: [QCatch](/publications/) exists because a quantification tool is only useful if you can tell when it went wrong, and a Django/D3.js [visualization platform](/projects/) exists because a cell-lineage hierarchy is much easier to reason about when you can actually zoom through it.
+My research is on **single-cell genomics and quantification algorithm development** — making the step from raw reads to a count matrix something you can actually trust. My recent work explores:
 
-**I am finishing my Ph.D. in December 2026 and looking for industry roles** in computational biology, ML for genomics, or scientific tooling. If that sounds like a fit, [get in touch](mailto:ygao61@umd.edu) — or start with my [CV](/cv/) and [projects](/projects/).
+- **Single-cell quantification:** mechanism-aware resolution of gene multi-mapping and splicing-status ambiguity, integrated into UMI deduplication.
+- **Probabilistic modeling:** models of library preparation — fragment length, priming-site affinity — that replace heuristics with calibrated probabilities.
+- **Deep learning for imaging-based assays:** end-to-end spot detection and base calling for in situ sequencing and Optical Pooled Screens.
+- **Open-source tooling:** quality control, diagnostics, and interactive visualization for the [alevin-fry](https://github.com/COMBINE-lab/alevin-fry) ecosystem, in Rust and Python.
+
+<span style="color: var(--global-theme-color); font-weight: 600;">I'm graduating in December 2026 and currently on the industry job market — feel free to reach out at the address above.</span>

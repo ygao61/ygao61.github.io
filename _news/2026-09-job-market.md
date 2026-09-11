@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am on the industry job market — defending and graduating in **December 2026**. Looking for roles in computational biology, ML for genomics, or scientific tooling. [Let's talk](mailto:ygao61@umd.edu).
+I am on the industry job market — defending and graduating in **December 2026**. Looking for roles in computational biology, ML for genomics, or scientific tooling. Reach me at ygao61 [at] umd [dot] edu..

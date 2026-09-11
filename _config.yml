@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yuan
 middle_name:
 last_name: Gao
-contact_note: >
-  Email is the fastest way to reach me.
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ph.D. candidate in Computational Biology at the University of Maryland, building probabilistic
   and deep-learning methods for single-cell and spatial genomics.
@@ -36,7 +35,7 @@ repo_theme_dark: dark # https://github.com/stats-organization/github-stats-exten
 # `user@host` and no `mailto:` for harvesters to scrape, and clicking one copies
 # it to the clipboard instead of opening a mail client.
 # See "Protecting email addresses from scrapers" in docs/CUSTOMIZE.md.
-protect_email: false
+protect_email: true
 
 # Off by default: the free public github-profile-trophy instance is disabled
 # (its Vercel deployment answers HTTP 402 / DEPLOYMENT_DISABLED), so every trophy
@@ -72,7 +71,7 @@ al_folio:
     allow_remote_loader: false
   features:
     cv:
-      enabled: true
+      enabled: false
     distill:
       enabled: true
   compat:
@@ -100,7 +99,7 @@ footer_fixed: true
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
-bib_search: true
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -194,8 +193,6 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
-  projects:
     output: true
   teachings:
     output: true
@@ -392,6 +389,7 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
+    demo,
     dimensions,
     eprint,
     google_scholar_id,

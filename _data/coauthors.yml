@@ -1,6 +1,6 @@
 "patro":
   - firstname: ["Rob", "R."]
-    url: https://www.cs.umd.edu/people/rob
+    url: https://www.cs.umd.edu/people/nomad
 
 "he":
   - firstname: ["Dongze", "D."]
@@ -14,6 +14,13 @@
   - firstname: ["Wei", "W."]
     url: https://weililab.org/
 
+  - firstname: ["Bo", "B."]
+    url: https://www.gene.com/scientists/our-scientists/bo-li
+
 "gould":
   - firstname: ["Joshua", "J."]
     url: https://github.com/joshua-gould
+
+"ge":
+  - firstname: ["Xiaoyan Monica", "Monica", "X. M."]
+    url: https://www.linkedin.com/in/xing-yue-monica-ge-592879a0/

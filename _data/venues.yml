@@ -1,14 +1,23 @@
+# Venue colours tint the venue name on each publication entry (the old badge chips
+# are gone). Each needs two values: `color` for the light theme and `color_dark`
+# for the dark one — a single hex cannot stay legible on both #ffffff and #1c1c1d.
+# Every pair below clears WCAG AA (contrast 5.3-7.6) against its own background.
+
 "Bioinformatics":
   url: https://academic.oup.com/bioinformatics
-  color: "#1f6f5c"
+  color: "#0f766e" # teal
+  color_dark: "#4fbfae"
 
 "ISMB":
   url: https://www.iscb.org/ismb
-  color: "#9c4f2e"
+  color: "#a8541a" # rust
+  color_dark: "#dda15e"
 
 "NAR":
   url: https://academic.oup.com/nar
-  color: "#2c5aa0"
+  color: "#3b4fa8" # indigo
+  color_dark: "#93a8e8"
 
 "Under review":
-  color: "#6b7482"
+  color: "#6b6864" # warm grey
+  color_dark: "#a39d96"
