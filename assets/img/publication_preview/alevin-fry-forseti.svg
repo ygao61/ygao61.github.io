@@ -1,35 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250" role="img" aria-label="A read that maps to two overlapping genes, resolved to one by a probabilistic model">
-  <rect width="400" height="250" fill="#f6f7f9"/>
-  <g font-family="ui-sans-serif,-apple-system,Helvetica,Arial,sans-serif" font-size="11" fill="#6b7482">
-    <text x="24" y="34">ambiguous reads</text>
-    <text x="24" y="238">overlapping loci</text>
-  </g>
-  <!-- reads -->
-  <g>
-    <rect x="24"  y="48" width="52" height="9" rx="2" fill="#c3cad4"/>
-    <rect x="92"  y="48" width="52" height="9" rx="2" fill="#c3cad4"/>
-    <rect x="160" y="48" width="52" height="9" rx="2" fill="#2f6f62"/>
-    <rect x="228" y="48" width="52" height="9" rx="2" fill="#c3cad4"/>
-    <rect x="296" y="48" width="52" height="9" rx="2" fill="#c3cad4"/>
-  </g>
-  <!-- assignment paths from the highlighted read -->
-  <path d="M186 61 L186 92 L120 92 L120 138" fill="none" stroke="#c3cad4" stroke-width="1.5" stroke-dasharray="4 4"/>
-  <path d="M186 61 L186 92 L252 92 L252 186" fill="none" stroke="#2f6f62" stroke-width="2"/>
-  <circle cx="252" cy="186" r="4" fill="#2f6f62"/>
-  <text x="262" y="108" font-family="ui-sans-serif,-apple-system,Helvetica,Arial,sans-serif" font-size="11" fill="#2f6f62">p = 0.94</text>
-  <text x="62" y="108" font-family="ui-sans-serif,-apple-system,Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b0">p = 0.06</text>
-  <!-- gene A -->
-  <line x1="24" y1="142" x2="230" y2="142" stroke="#8b95a5" stroke-width="1.5"/>
-  <g fill="#8b95a5">
-    <rect x="24"  y="132" width="46" height="20" rx="2"/>
-    <rect x="102" y="132" width="36" height="20" rx="2"/>
-    <rect x="184" y="132" width="46" height="20" rx="2"/>
-  </g>
-  <!-- gene B -->
-  <line x1="150" y1="190" x2="376" y2="190" stroke="#2f6f62" stroke-width="1.5"/>
-  <g fill="#2f6f62">
-    <rect x="150" y="180" width="40" height="20" rx="2"/>
-    <rect x="232" y="180" width="42" height="20" rx="2"/>
-    <rect x="330" y="180" width="46" height="20" rx="2"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250" role="img" aria-label="No figure yet — manuscript under review">
+  <rect width="400" height="250" fill="#f4f5f7"/>
+  <rect x="10" y="10" width="380" height="230" rx="4" fill="none" stroke="#d2d6dd" stroke-width="1.5" stroke-dasharray="7 6"/>
+  <text x="200" y="131" text-anchor="middle"
+        font-family="ui-sans-serif, -apple-system, Helvetica, Arial, sans-serif"
+        font-size="15" fill="#98a0ac" letter-spacing="0.5">Figure available on publication</text>
 </svg>

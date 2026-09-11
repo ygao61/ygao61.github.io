@@ -243,6 +243,9 @@
       {% if entry.demo %}
         <a href="{{ entry.demo }}" class="btn btn-sm z-depth-0 pub-link" role="button"><i class="fa-solid fa-arrow-up-right-from-square"></i><span>Demo</span></a>
       {% endif %}
+      {% if entry.webserver %}
+        <a href="{{ entry.webserver }}" class="btn btn-sm z-depth-0 pub-link" role="button"><i class="fa-solid fa-globe"></i><span>Webserver</span></a>
+      {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
           <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>

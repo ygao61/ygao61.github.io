@@ -404,6 +404,7 @@ filtered_bibtex_keywords:
     slides,
     supp,
     video,
+    webserver,
     website,
   ]
 

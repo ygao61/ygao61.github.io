@@ -10,7 +10,7 @@
   journal     = {Manuscript under review},
   year        = {2026},
   abstract    = {Single-cell quantification pipelines routinely discard reads that map to more than one gene, silently removing exactly the loci where gene families overlap. We present alevin-fry-forseti, an end-to-end quantification tool that integrates mechanistic probabilistic modeling of splicing status directly into graph-based UMI deduplication rather than treating multimapping as a post hoc tie-break. Validated against matched long-read data, our reassignments show 2.5x higher long-read confirmation than a parsimony-EM baseline and recover 2.7x more calls than Cell Ranger (288K vs. 106K). The resulting count matrices disentangle overlapping loci such as MS4A and rescue functional biomarkers -- including the antioxidant regulator GPX1 in dendritic cells -- that mechanism-unaware heuristics routinely drop as noise. On a human MTG snRNA-seq atlas (9,103 cells, 19 expert-curated subclasses) it achieves the highest clustering agreement (NMI/ARI) of any method tested, significantly beating Cell Ranger (p=0.006). Systematic performance engineering in Rust delivers a 75x speedup.},
-  code        = {https://github.com/COMBINE-lab/alevin-fry},
+  code        = {https://github.com/COMBINE-lab/alevin-fry/tree/forseti},
   selected    = {true}
 }
 
@@ -80,7 +80,7 @@
   publisher   = {Oxford University Press},
   doi         = {10.1093/bioinformatics/btae645},
   code        = {https://github.com/data2intelligence/collapsible_tree},
-  demo        = {https://collapsibletree.cbcb.umd.edu},
+  webserver   = {https://collapsibletree.cbcb.umd.edu},
   abstract    = {Cell-type hierarchies are easier to reason about when you can move through them. This full-stack platform (Django/D3.js) turns high-dimensional scRNA-seq count matrices into interactive, collapsible cell-lineage trees built on hierarchical ontologies, letting researchers zoom dynamically between broad lineages and specific subtypes while expression is recomputed at each resolution.},
   annotation  = {Work done at the National Cancer Institute, NIH.}
 }
@@ -99,5 +99,5 @@
   publisher   = {Oxford University Press},
   doi         = {10.1093/nar/gkaa809},
   abstract    = {CRISP-view collects CRISPR/Cas9 and RNAi screening datasets spanning in vitro and in vivo proliferation and viability, response to cancer immunotherapy, virus response, and protein expression -- 10,321 human and 825 mouse samples from 167 papers as of September 2020. Every dataset is curated, annotated, and processed through a standard MAGeCK-VISPR pipeline with quality-control metrics, and served through a webserver for visualization, exploration, and search.},
-  demo        = {http://crispview.weililab.org/}
+  webserver   = {http://crispview.weililab.org/}
 }
