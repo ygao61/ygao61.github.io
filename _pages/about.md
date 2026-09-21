@@ -35,11 +35,11 @@ I interned at **Genentech** (w/ [Dr. Monica Ge](https://www.linkedin.com/in/xing
 
 I develop **algorithms, statistical models, and machine learning methods for large-scale biological data**:
 
-- **Single-Cell Quantification:** read multi-mapping resolution, graph-based UMI deduplication, mechanistic models of library preparation, calibrated splicing-status inference. *Rust*, *Python*
-- **Computer Vision:** end-to-end multi-head architectures, joint object detection and sequence decoding, self-supervised training. *PyTorch*
-- **Model Development:** training-data curation, fine-tuning, pseudo-labeling, evaluation-metric design, validation against orthogonal measurements. *PyTorch*, *scikit-learn*
-- **Drug Discovery:** drug-response prediction with classical ML, mechanism-of-action biomarker discovery, CRISPR screen curation. *scikit-learn*, *R*
-- **Large-Scale Pipelines:** reproducible workflows, systematic performance optimization, production-grade open-source tooling. *Nextflow*, *Docker*, *Linux*
-- **Interactive Visualization:** web apps for exploring single-cell data, collapsible cell-ontology trees, self-contained HTML quality-control reports. *D3.js*, *Django*, *JavaScript*
+- **Single-Cell Quantification:** read multi-mapping resolution, graph-based UMI deduplication, mechanistic models of library preparation, calibrated splicing-status inference.
+- **Computer Vision:** end-to-end multi-head architectures, joint object detection and sequence decoding, self-supervised training.
+- **Model Development:** training-data curation, fine-tuning, pseudo-labeling, evaluation-metric design, validation against orthogonal measurements.
+- **Drug Discovery:** drug-response prediction with classical ML, mechanism-of-action biomarker discovery, CRISPR screen curation.
+- **Large-Scale Pipelines:** reproducible workflows, systematic performance optimization, production-grade open-source tooling.
+- **Interactive Visualization:** web apps for exploring single-cell data, collapsible cell-ontology trees, self-contained HTML quality-control reports.
 
 <span style="color: var(--global-theme-color); font-weight: 600;">I'm graduating in December 2026 and currently on the industry job market. Feel free to reach out at the address above.</span>

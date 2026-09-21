@@ -184,7 +184,15 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {%- comment -%}
+      Conference venues are written with the year in the name ("ISMB 2026"), so
+      appending it again would read "ISMB 2026, 2026".
+    {%- endcomment -%}
+    {% assign year_already_shown = false %}
+    {% if entry.year and entrytype_text contains entry.year %}
+      {% assign year_already_shown = true %}
+    {% endif %}
+    {% capture periodical %}{{ entrytype }}{% unless year_already_shown %}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endunless %}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
