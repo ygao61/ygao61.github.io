@@ -7,6 +7,9 @@ on:
     - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
 
+permissions:
+  contents: write # the final step commits _data/citations.yml back to the repo
+
 jobs:
   update-citations:
     runs-on: ubuntu-latest
@@ -23,11 +26,14 @@ jobs:
         with:
           python-version: "3.13"
 
+      # Installed by name rather than from requirements.txt: that file was part of
+      # the template's tooling and went with it. bin/update_scholar_citations.py
+      # imports exactly these two.
       - name: Install dependencies
         run: |
           echo "🔧 Installing dependencies..."
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install scholarly PyYAML
 
       - name: Save current citations.yml hash
         id: before
